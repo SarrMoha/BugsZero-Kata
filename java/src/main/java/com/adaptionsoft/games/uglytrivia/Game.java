@@ -97,7 +97,7 @@ public class Game {
 	
 	
 	private String currentCategory() {
-		if (places[currentPlayer] == 0) return "Pop";
+		if (places[currentPlayer]== 0) return "Pop";
 		if (places[currentPlayer] == 4) return "Pop";
 		if (places[currentPlayer] == 8) return "Pop";
 		if (places[currentPlayer] == 1) return "Science";
